@@ -1,6 +1,10 @@
 var net = require('net');
 var sockets = [];
 
+process.on('uncaughtException', function(err){
+  console.log(err);
+})
+
 var server = net.createServer(function(socket) {
   sockets.push(socket);
   socket.write('Bienvenido al Chat ;)\r\n');
