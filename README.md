@@ -1,5 +1,5 @@
-# Curso AngularJS
-Angular Polo Tecnologico 2016
+# Curso NodeJS
+NodeJS Polo Tecnologico 2016
 
 ## Clase 1
 
