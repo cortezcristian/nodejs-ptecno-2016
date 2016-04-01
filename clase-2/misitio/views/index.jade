@@ -1,5 +1,17 @@
 extends layout
 
 block content
+  - var items = ['Home', 'Contacto', "About"]
+  ul
+    - items.forEach(function(v){
+    li
+      a#uno.menu-item.m(href="#",data-a="2") #{v}
+    - });
+  script.
+    var a = prompt("tu nombre");
+    alert(a);
   h1= title
+  h2 Hola
+    span a todos
+    span -> !{sub}
   p Welcome to #{title}
