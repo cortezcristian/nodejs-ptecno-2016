@@ -10,6 +10,7 @@ NodeJS Polo Tecnologico 2016
 - [Episodio 5](http://cortezcristian.com/curso-node-js/material/slides/episodio5.html#/)
 - [Intro Git](http://cortezcristian.com/curso-node-js/material/slides/episodio1.html#/3)
 - [Yeoman](http://cortezcristian.com/talks/nodejs-goodies/#/13)
+- [Practia](https://github.com/cortezcristian/express4crud)
 
 ## Tools
 
