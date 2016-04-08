@@ -17,6 +17,8 @@ NodeJS Polo Tecnologico 2016
 ## Clase 3
 - [MongoDB](http://cortezcristian.com/curso-node-js/material/slides/episodio1.html#/5)
 - [Episodio 4](http://cortezcristian.com/curso-node-js/material/slides/episodio4.html#/)
+- [MySQL vs. MongoDB](http://vschart.com/compare/mysql/vs/mongodb)
+- [MySQL vs PostgreSQL vs MongoDB (velocidad)](http://macool.me/mysql-vs-postgresql-vs-mongodb-velocidad/04)
 
 ## Clase 4
 - [Episodio 5](http://cortezcristian.com/curso-node-js/material/slides/episodio5.html#/)
