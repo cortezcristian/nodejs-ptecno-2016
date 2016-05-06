@@ -29,6 +29,10 @@ NodeJS Polo Tecnologico 2016
 - [ES6](https://github.com/lukehoban/es6features#enhanced-object-literals)
 - [ES2015: The Shape of JavaScript to Come](https://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come)
 
+## Clase 6
+
+- [Multiple Choice](https://docs.google.com/forms/d/15zLcJUoFs13Dm0sMbYSsVR5pMGTyA0eid6zZFEkGYIQ/viewform#start=publishanalytics)
+
 ## Tools
 
 ```
