@@ -26,6 +26,8 @@ NodeJS Polo Tecnologico 2016
 
 ## Clase 5
 - [Practica 3](https://github.com/cortezcristian/express4socketio)
+- [ES6](https://github.com/lukehoban/es6features#enhanced-object-literals)
+- [ES2015: The Shape of JavaScript to Come](https://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come)
 
 ## Tools
 
