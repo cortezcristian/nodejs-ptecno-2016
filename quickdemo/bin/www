@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+var app = require('../app');
+
+app.set('port', process.env.PORT || 3000);
+
+var server = app.listen(app.get('port'), "0.0.0.0", function() {
+  console.log('Express server listening on port ' + server.address().port);
+});
+
+var io = require('socket.io')(server);
+
+var userList = [];
+
+io.on('connection', function (socket) {
+
+		socket.on("join", function(name){
+        console.log("joined")
+        socket.nick = encodeURI(name);
+        userList.push(socket.nick);
+    });
+
+    socket.on("chatsend", function(msg){
+        console.log(msg, msg);
+        io.sockets.emit("chat", socket.nick+": "+(msg));
+    });
+});

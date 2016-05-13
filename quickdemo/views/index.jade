@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div#messages(style="height:300px; overflow:auto;border:1px solid; black")
+  input#send(type="text",style="width: 99%;")
+  script.
+      var socket = io.connect('http://'+window.location.hostname+':3000');
+      var nickname = prompt();
+      socket.emit("join", nickname);
+
+      socket.on('chat', function (data) {
+          console.log(data);
+          $("#messages").append("<div>"+data+"</div>");
+          $('#messages').prop('scrollTop', $('#messages')[0].scrollHeight)
+      });
+      $(document).ready(function(){
+          $('#send').keydown(function(e){
+            var code = e.keyCode || e.which;
+            if(code==13&&$(this).val()!==""){
+                console.log($(this).val());
+                socket.emit("chatsend", $(this).val());
+                $(this).val("");
+            }
+          });
+      });
